@@ -1,0 +1,6 @@
+version: 1.19.4
+description: A Tower Defense plugin using spigot 1.19.4. Actually a test
+author: taviot baptiste
+api-version: 1.19
+main: com.github.taviotbaptiste.TowerDefense
+name: TowerDefense
