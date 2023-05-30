@@ -4,13 +4,11 @@ import com.github.taviotbaptiste.commands.TestCommand;
 import com.github.taviotbaptiste.listeners.DropItemListener;
 import com.github.taviotbaptiste.listeners.JoinListener;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class TowerDefense extends JavaPlugin {
-
     @Override
     public void onEnable() {
         // Plugin startup logic
@@ -19,7 +17,8 @@ public final class TowerDefense extends JavaPlugin {
 
 
         //item = Poppy flower
-        ItemCustom item = new ItemCustom(new ItemStack(Material.POPPY));
+        ItemCustom item = null;
+        item = new ItemCustom(new ItemStack(Flower.POPPY.getFlower()));
 
         //itemMeta = New Name (Change the name of the object)
         ItemMeta itemMeta = item.getItemStack().getItemMeta();
