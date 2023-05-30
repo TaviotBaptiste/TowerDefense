@@ -4,3 +4,7 @@ author: taviot baptiste
 api-version: 1.19
 main: com.github.taviotbaptiste.TowerDefense
 name: TowerDefense
+commands:
+  tw:
+    description: Test command
+    permission: tw.use
