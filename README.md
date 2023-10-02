@@ -62,7 +62,7 @@ Library in the project
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html), and a IDE like [IntelliJ](https://www.jetbrains.com/fr-fr/idea/) installed.
+Before starting :checkered_flag:, you need to have [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html), and a IDE like [IntelliJ](https://www.jetbrains.com/fr-fr/idea/) installed.
 
 ## :checkered_flag: Starting ##
 
